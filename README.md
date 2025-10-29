@@ -1,6 +1,6 @@
-# Website Console Error Checker
+# GAMS Console Error Checker
 
-A comprehensive Puppeteer-based tool for crawling websites and detecting console errors, 404 resource errors, and broken links.
+A comprehensive Puppeteer-based tool specifically designed for crawling GAMS (Geisteswissenschaftliches Asset Management System) projects at gams.uni-graz.at and detecting console errors, 404 resource errors, and broken links.
 
 ## Quick Start
 

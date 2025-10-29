@@ -1,3 +1,16 @@
+/**
+ * GAMS Console Error Checker
+ *
+ * A comprehensive tool for crawling GAMS (Geisteswissenschaftliches Asset Management System)
+ * projects at gams.uni-graz.at and detecting console errors, 404 resources, and broken links.
+ *
+ * This tool understands GAMS URL patterns:
+ * - context:[project-id] - Context pages
+ * - o:[project-id] - Object pages
+ *
+ * Reports are saved to the /reports directory.
+ */
+
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
