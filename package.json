@@ -1,0 +1,24 @@
+{
+  "name": "website-console-error-checker",
+  "version": "1.0.0",
+  "description": "A comprehensive Puppeteer-based tool for crawling websites and detecting console errors, 404 resource errors, and broken links",
+  "main": "check-with-puppeteer.js",
+  "scripts": {
+    "start": "node check-with-puppeteer.js",
+    "check": "node check-with-puppeteer.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "crawler",
+    "console-errors",
+    "404",
+    "broken-links",
+    "gams",
+    "website-testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  }
+}
